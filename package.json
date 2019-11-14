@@ -1,0 +1,32 @@
+{
+	"name": "@intouchgroup/eslint-config",
+	"version": "2.0.0",
+	"description": "ESLint config for JS, JSX, TS, and TSX",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/intouchgroup/eslint-config.git"
+	},
+	"keywords": [
+		"eslint",
+		"lint",
+		"esconfig",
+		"config"
+	],
+	"author": "Intouch Group",
+	"license": "MIT",
+	"optionalDependencies": {
+		"@typescript-eslint/eslint-plugin": ">=2.7.0",
+		"@typescript-eslint/parser": ">=2.7.0",
+		"babel-eslint": ">=10.0.3",
+		"eslint-plugin-react": ">=7.16.0",
+		"eslint-plugin-react-hooks": ">=2.2.0",
+		"typescript": ">=3.7.2"
+	},
+	"peerDependencies": {
+		"eslint": ">=6.6.0"
+	}
+}
