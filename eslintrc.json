@@ -39,7 +39,7 @@
 	],
 	"rules": {
         "react/prop-types": 0,
-        "react/no-unknown-property": [2, { "ignore": ["class"] }],
+        "react/no-unknown-property": [2],
         "react/jsx-handler-names": "error",
         "react/no-deprecated": "error",
 		"react/jsx-max-props-per-line": ["error", { "maximum": 1 }],
@@ -49,7 +49,6 @@
 			"nonEmpty": "line-aligned",
 			"selfClosing": "line-aligned"
 		}],
-
 
 		"react/boolean-prop-naming": "error",
 		"react/button-has-type": "error",
