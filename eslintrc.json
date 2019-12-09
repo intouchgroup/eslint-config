@@ -239,7 +239,7 @@
 		"no-octal-escape": "error",
 		"no-octal": "error",
 		"no-proto": "error",
-		"no-redeclare": "error",
+		"no-redeclare": "off",
 		"no-return-await": "error",
 		"no-script-url": "error",
 		"no-self-assign": ["error", {"props": true}],
