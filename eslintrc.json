@@ -18,7 +18,7 @@
 		"node": true,
 		"es2020": true
 	},
-    "settings": {
+	"settings": {
 		"react": {
 			"version": "16.11.0"
 		}
@@ -34,14 +34,18 @@
 				"eslint-plugin-react",
 				"eslint-plugin-react-hooks",
 				"@typescript-eslint/eslint-plugin"
-			]
+			],
+			"rules": {
+				"no-unused-expressions": "off",
+				"@typescript-eslint/no-unused-expression": ["error"]
+			}
 		}
 	],
 	"rules": {
-        "react/prop-types": 0,
-        "react/no-unknown-property": [2],
-        "react/jsx-handler-names": "error",
-        "react/no-deprecated": "error",
+		"react/prop-types": 0,
+		"react/no-unknown-property": [2],
+		"react/jsx-handler-names": "error",
+		"react/no-deprecated": "error",
 		"react/jsx-max-props-per-line": ["error", { "maximum": 1 }],
 		"react/jsx-one-expression-per-line": ["off"],
 		"react/jsx-first-prop-new-line": ["error", "multiline"],
@@ -126,8 +130,8 @@
 		}],
 
 
-        "padding-line-between-statements": [
-            "error",
+		"padding-line-between-statements": [
+			"error",
 			{
 				"blankLine": "always",
 				"prev": "multiline-block-like",
@@ -148,20 +152,20 @@
 				"prev": "*",
 				"next": "multiline-expression"
 			}
-        ],
+		],
 
 
 		"comma-dangle": ["error", "always-multiline"],
-        "prefer-const": ["warn", {
-            "destructuring": "any",
-            "ignoreReadBeforeAssign": false
-        }],
-        "no-var": "error",
-        "one-var": ["error", {
-            "var": "never",
-            "let": "never",
-            "const": "never"
-        }],
+		"prefer-const": ["warn", {
+			"destructuring": "any",
+			"ignoreReadBeforeAssign": false
+		}],
+		"no-var": "error",
+		"one-var": ["error", {
+			"var": "never",
+			"let": "never",
+			"const": "never"
+		}],
 		"one-var-declaration-per-line": ["error", "always"],
 		"for-direction": "error",
 		"getter-return": "error",

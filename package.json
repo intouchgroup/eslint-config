@@ -1,6 +1,6 @@
 {
 	"name": "@intouchgroup/eslint-config",
-	"version": "2.0.3",
+	"version": "2.0.4",
 	"description": "ESLint config for JS, JSX, TS, and TSX",
 	"main": "index.js",
 	"scripts": {
@@ -19,14 +19,14 @@
 	"author": "Intouch Group",
 	"license": "MIT",
 	"optionalDependencies": {
-		"@typescript-eslint/eslint-plugin": ">=2.7.0",
-		"@typescript-eslint/parser": ">=2.7.0",
+		"@typescript-eslint/eslint-plugin": ">=2.16.0",
+		"@typescript-eslint/parser": ">=2.16.0",
 		"babel-eslint": ">=10.0.3",
-		"eslint-plugin-react": ">=7.16.0",
-		"eslint-plugin-react-hooks": ">=2.2.0",
-		"typescript": ">=3.7.2"
+		"eslint-plugin-react": ">=7.18.0",
+		"eslint-plugin-react-hooks": ">=2.3.0",
+		"typescript": ">=3.7.5"
 	},
 	"peerDependencies": {
-		"eslint": ">=6.6.0"
+		"eslint": ">=6.8.0"
 	}
 }
