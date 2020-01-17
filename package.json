@@ -1,6 +1,6 @@
 {
 	"name": "@intouchgroup/eslint-config",
-	"version": "2.0.5",
+	"version": "2.0.6",
 	"description": "ESLint config for JS, JSX, TS, and TSX",
 	"main": "index.js",
 	"scripts": {
