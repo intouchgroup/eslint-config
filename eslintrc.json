@@ -20,7 +20,7 @@
 	},
 	"settings": {
 		"react": {
-			"version": "16.11.0"
+			"version": "16.12.0"
 		}
 	},
 	"overrides": [
@@ -36,8 +36,10 @@
 				"@typescript-eslint/eslint-plugin"
 			],
 			"rules": {
+				"no-undef": "off",
+				"@typescript-eslint/no-undefined": ["error"],
 				"no-unused-expressions": "off",
-				"@typescript-eslint/no-unused-expression": ["error"]
+				"@typescript-eslint/no-unused-expressions": ["error"]
 			}
 		}
 	],
